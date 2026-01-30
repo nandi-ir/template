@@ -263,7 +263,7 @@
                                     Yayasan Inisiatif Zakat Indonesia
                                 </p>
                                 <p class="organization-details">
-                                    LAZNAS SK Kemenag RI No. 950 Tahun 2020
+                                    LAZNAS SK Kemenag RI No. 1754 Tahun 2025
                                 </p>
                                 <p class="organization-details">
                                     Alamat Jl. Raya Condet No.27-G, Batu Ampar, Kramat Jati, Jakarta Timur 13520 -
@@ -283,6 +283,10 @@
             <tr>
                 <td class="no-border donor-label">NPWP</td>
                 <td class="no-border donor-value">{{ $donor->getTaxNumber() ?: '' }}</td>
+            </tr>
+            <tr>
+                <td class="no-border donor-label">NIK</td>
+                <td class="no-border donor-value">{{ $donor->getNik() }}</td>
             </tr>
             <tr>
                 <td class="no-border donor-label">Donatur ID</td>
