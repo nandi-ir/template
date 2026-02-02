@@ -38,7 +38,7 @@ final class Donor
      */
     private $nik;
 
-    private function __construct(string $identificationNumber, string $name, ?string $taxNumber, ?string $address, ?string $taxAddress, ?string $nik)
+    private function __construct(string $identificationNumber, string $name, ?string $taxNumber, ?string $address, ?string $taxAddress, ?string $nik = null)
     {
         $this->identificationNumber = $identificationNumber;
         $this->name = $name;
